@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .main{
+            width: 1000px;
+            height: 500px;
+            border: 2px solid black;
+            display: flex;
+            margin: auto;
+        }
+        .squar {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(217, 154, 17);
+            border: 5px solid black;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            margin: auto;
+            
+        }
+
+        .tringle {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            margin: auto;
+        }
+
+        .lsquar{
+            width: 200px;
+            height: 300px;
+            background-color: red;    
+            clip-path: inset(0 20% 0 10%);
+            margin: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="squar"></div>
+        <div class="tringle"></div>
+        <div class="lsquar"></div>
+    </div>
+</body>
+
+</html>
